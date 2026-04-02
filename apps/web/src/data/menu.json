@@ -1,0 +1,346 @@
+{
+  "categories": [
+    {
+      "id": "seafood",
+      "nameBg": "Морски деликатеси",
+      "nameEn": "Seafood",
+      "displayOrder": 1,
+      "items": [
+        {
+          "id": "kalamari",
+          "nameBg": "Калмари",
+          "nameEn": "Calamari",
+          "descriptionBg": "Пресни калмари, приготвени на скара или пържени до златисто",
+          "descriptionEn": "Fresh calamari, grilled or fried to golden perfection",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["contains_fish"]
+        },
+        {
+          "id": "gavros",
+          "nameBg": "Гаврос",
+          "nameEn": "Gavros (Anchovies)",
+          "descriptionBg": "Малки морски рибки, типични за гръцката кухня — хрупкави и ароматни",
+          "descriptionEn": "Small crispy sea fish, a staple of Greek coastal cuisine",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["contains_fish"]
+        },
+        {
+          "id": "skaridi",
+          "nameBg": "Скариди",
+          "nameEn": "Shrimp",
+          "descriptionBg": "Пресни скариди на скара с лимон и зехтин",
+          "descriptionEn": "Fresh grilled shrimp with lemon and olive oil",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["contains_fish", "gluten_free"]
+        },
+        {
+          "id": "midi",
+          "nameBg": "Миди",
+          "nameEn": "Mussels",
+          "descriptionBg": "Пресни миди на пара с бяло вино, чесън и магданоз",
+          "descriptionEn": "Fresh mussels steamed with white wine, garlic and parsley",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["contains_fish", "gluten_free"]
+        }
+      ]
+    },
+    {
+      "id": "dishes",
+      "nameBg": "Предястия, Салати, Разядки",
+      "nameEn": "Starters, Salads, Appetizers",
+      "displayOrder": 2,
+      "items": [
+        {
+          "id": "gratska-salata",
+          "nameBg": "Гръцка салата",
+          "nameEn": "Greek Salad",
+          "descriptionBg": "Домати, краставици, маслини, лук и сирене фета с зехтин и риган",
+          "descriptionEn": "Tomatoes, cucumbers, olives, onion and feta cheese with olive oil and oregano",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegetarian", "gluten_free", "contains_dairy"]
+        },
+        {
+          "id": "tikvichki",
+          "nameBg": "Тиквички",
+          "nameEn": "Zucchini Fritters",
+          "descriptionBg": "Пресни тиквички, пържени до хрупкавост",
+          "descriptionEn": "Fresh zucchini, fried until crispy",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegetarian"]
+        },
+        {
+          "id": "sirene-zapecheno",
+          "nameBg": "Сирене запечено",
+          "nameEn": "Baked Feta",
+          "descriptionBg": "Сирене фета, запечено в алуминиево фолио с чушки и подправки",
+          "descriptionEn": "Feta cheese baked in foil with peppers and herbs",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegetarian", "gluten_free", "contains_dairy"]
+        },
+        {
+          "id": "purjeni-kartofi",
+          "nameBg": "Пържени картофи",
+          "nameEn": "French Fries",
+          "descriptionBg": "Пресни пържени картофи, поднесени горещи",
+          "descriptionEn": "Freshly fried golden potatoes",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan", "gluten_free"]
+        },
+        {
+          "id": "purjeni-kartofi-sirene",
+          "nameBg": "Пържени картофи със сирене",
+          "nameEn": "French Fries with Feta",
+          "descriptionBg": "Пресни пържени картофи с настъргано сирене фета",
+          "descriptionEn": "Freshly fried potatoes topped with crumbled feta cheese",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegetarian", "gluten_free", "contains_dairy"]
+        }
+      ]
+    },
+    {
+      "id": "meze",
+      "nameBg": "Мезе",
+      "nameEn": "Meze & Dips",
+      "displayOrder": 3,
+      "items": [
+        {
+          "id": "tarama",
+          "nameBg": "Тарама",
+          "nameEn": "Taramasalata",
+          "descriptionBg": "Традиционна гръцка крем-салата от рибен хайвер с лимон и зехтин",
+          "descriptionEn": "Traditional Greek fish roe spread with lemon and olive oil",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["contains_fish", "gluten_free"]
+        },
+        {
+          "id": "skordelya",
+          "nameBg": "Скорделя",
+          "nameEn": "Skordalia",
+          "descriptionBg": "Гръцки дип от картофи, чесън и зехтин",
+          "descriptionEn": "Greek garlic and potato dip with olive oil",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan", "gluten_free"]
+        },
+        {
+          "id": "tarator",
+          "nameBg": "Таратор",
+          "nameEn": "Tarator",
+          "descriptionBg": "Традиционна студена супа от кисело мляко, краставица, чесън и копър",
+          "descriptionEn": "Traditional cold soup with yogurt, cucumber, garlic and dill",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegetarian", "gluten_free", "contains_dairy"]
+        },
+        {
+          "id": "sos",
+          "nameBg": "Сос",
+          "nameEn": "Sauce",
+          "descriptionBg": "Домашен сос на деня",
+          "descriptionEn": "House sauce of the day",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegetarian"]
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "nameBg": "Гарнитури",
+      "nameEn": "Sides",
+      "displayOrder": 4,
+      "items": [
+        {
+          "id": "hlyab",
+          "nameBg": "Хляб",
+          "nameEn": "Bread",
+          "descriptionBg": "Пресен хляб",
+          "descriptionEn": "Fresh bread",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan"]
+        },
+        {
+          "id": "chips",
+          "nameBg": "Чипс",
+          "nameEn": "Chips",
+          "descriptionBg": "Хрупкави картофени чипсове",
+          "descriptionEn": "Crispy potato chips",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan", "gluten_free"]
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "nameBg": "Десерти",
+      "nameEn": "Desserts",
+      "displayOrder": 5,
+      "items": [
+        {
+          "id": "kremche",
+          "nameBg": "Кремче",
+          "nameEn": "Cream Custard",
+          "descriptionBg": "Домашен крем десерт с карамел",
+          "descriptionEn": "Homemade caramel cream dessert",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegetarian", "contains_dairy", "contains_eggs"]
+        },
+        {
+          "id": "torta",
+          "nameBg": "Торта",
+          "nameEn": "Cake",
+          "descriptionBg": "Домашна торта на деня",
+          "descriptionEn": "Homemade cake of the day",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegetarian", "contains_dairy", "contains_eggs"]
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "nameBg": "Бира",
+      "nameEn": "Beer",
+      "displayOrder": 6,
+      "items": [
+        {
+          "id": "nalivna-bira-vayt",
+          "nameBg": "Наливна бира Вайсер Хасе",
+          "nameEn": "Draft Beer Weisser Hase",
+          "descriptionBg": "Наливна бира — светла, свежа, студена",
+          "descriptionEn": "Draft lager — light, fresh and cold",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan"]
+        },
+        {
+          "id": "nalivna-radeberger",
+          "nameBg": "Наливна бира Радебергер",
+          "nameEn": "Draft Beer Radeberger",
+          "descriptionBg": "Немска наливна бира Радебергер — класическа и освежаваща",
+          "descriptionEn": "German draft Radeberger — classic and refreshing",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan"]
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "nameBg": "Вино",
+      "nameEn": "Wine",
+      "displayOrder": 7,
+      "items": [
+        {
+          "id": "vino-chasha",
+          "nameBg": "Вино чаша",
+          "nameEn": "Wine (Glass)",
+          "descriptionBg": "Избор от червено или бяло вино на чаша",
+          "descriptionEn": "Choice of red or white wine by the glass",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan"]
+        },
+        {
+          "id": "resina",
+          "nameBg": "Рецина",
+          "nameEn": "Retsina",
+          "descriptionBg": "Традиционно гръцко бяло вино с аромат на смола",
+          "descriptionEn": "Traditional Greek white wine with a distinctive resin aroma",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan"]
+        }
+      ]
+    },
+    {
+      "id": "spirits",
+      "nameBg": "Спиртни напитки",
+      "nameEn": "Spirits",
+      "displayOrder": 8,
+      "items": [
+        {
+          "id": "uzo",
+          "nameBg": "Узо",
+          "nameEn": "Ouzo",
+          "descriptionBg": "Традиционна гръцка анасонова ракия",
+          "descriptionEn": "Traditional Greek anise-flavoured spirit",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan"]
+        },
+        {
+          "id": "tsipuro-s-anason",
+          "nameBg": "Ципуро с анасон",
+          "nameEn": "Tsipouro with Anise",
+          "descriptionBg": "Гръцка ракия от гроздова джибри с анасон",
+          "descriptionEn": "Greek pomace spirit with anise",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan"]
+        },
+        {
+          "id": "tsipuro-bez-anason",
+          "nameBg": "Ципуро без анасон",
+          "nameEn": "Tsipouro without Anise",
+          "descriptionBg": "Гръцка ракия от гроздова джибри без анасон — чист и плодов вкус",
+          "descriptionEn": "Greek pomace spirit without anise — clean and fruity",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan"]
+        }
+      ]
+    },
+    {
+      "id": "soft-drinks",
+      "nameBg": "Безалкохолни",
+      "nameEn": "Soft Drinks",
+      "displayOrder": 9,
+      "items": [
+        {
+          "id": "fresh",
+          "nameBg": "Фреш",
+          "nameEn": "Fresh Juice",
+          "descriptionBg": "Прясно изцеден сок по избор",
+          "descriptionEn": "Freshly squeezed juice of your choice",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan", "gluten_free"]
+        },
+        {
+          "id": "frape-cherno",
+          "nameBg": "Черно фрапе",
+          "nameEn": "Frappé Coffee",
+          "descriptionBg": "Студено разбито кафе — класическото гръцко фрапе",
+          "descriptionEn": "Cold shaken iced coffee — the classic Greek frappé",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegan", "gluten_free"]
+        },
+        {
+          "id": "frape-byalo",
+          "nameBg": "Бяло фрапе",
+          "nameEn": "Frappé Coffee with Milk",
+          "descriptionBg": "Студено разбито кафе с мляко",
+          "descriptionEn": "Cold shaken iced coffee with milk",
+          "price": 0,
+          "isAvailable": true,
+          "dietaryLabels": ["vegetarian", "gluten_free", "contains_dairy"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #e0eefc;
+  color: #1c1917;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Hide scrollbar but keep functionality */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Sea food float animations */
+@keyframes sea-float-a {
+  0%, 100% { transform: translateY(0px) rotate(6deg); }
+  50%       { transform: translateY(-10px) rotate(8deg); }
+}
+@keyframes sea-float-b {
+  0%, 100% { transform: translateY(0px) rotate(-8deg); }
+  50%       { transform: translateY(-13px) rotate(-6deg); }
+}
+.sea-float-a { animation: sea-float-a 4.5s ease-in-out infinite; }
+.sea-float-b { animation: sea-float-b 6s ease-in-out infinite; }
+
+@media print {
+  body { background: white; }
+}
