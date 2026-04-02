@@ -37,7 +37,7 @@ export default function CategoryTabs({ categories, activeId, lang, onSelect }: P
             key={cat.id}
             ref={isActive ? activeRef : null}
             onClick={() => onSelect(cat.id)}
-            className={`snap-start flex items-center gap-1.5 whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium border transition-all duration-200 flex-shrink-0 ${
+            className={`snap-start flex items-center gap-2 whitespace-nowrap px-5 py-2.5 rounded-full text-sm font-medium border transition-all duration-200 flex-shrink-0 ${
               isActive
                 ? 'bg-emerald-800 text-white border-emerald-800 shadow-md shadow-emerald-900/20'
                 : 'bg-white text-stone-600 border-stone-200 hover:border-emerald-400 hover:text-emerald-800'

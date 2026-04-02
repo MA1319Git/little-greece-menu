@@ -36,7 +36,7 @@ export default function MenuItemCard({ item, lang }: Props) {
       {/* Left accent bar */}
       <div className="absolute left-0 top-0 bottom-0 w-1 bg-emerald-600 rounded-l-2xl" />
 
-      <div className="pl-5 pr-4 py-4 flex flex-col gap-2">
+      <div className="pl-6 pr-5 py-5 flex flex-col gap-2.5">
         {/* Name + price row */}
         <div className="flex items-start justify-between gap-3">
           <h3 className="font-semibold text-stone-900 leading-snug text-[15px] flex-1">
