@@ -8,6 +8,6 @@ const isQR = window.location.pathname === '/qr'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {isQR ? <QRPage url={window.location.origin} /> : <App />}
+    {isQR ? <QRPage url="https://little-greece-menu.netlify.app" /> : <App />}
   </StrictMode>,
 )

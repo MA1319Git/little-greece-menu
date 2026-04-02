@@ -13,7 +13,7 @@ const DIETARY_CONFIG: Record<DietaryLabel, { icon: string; labelBg: string; labe
 
 function formatPrice(price: number, lang: 'bg' | 'en'): string {
   if (price === 0) return lang === 'bg' ? 'питайте' : 'ask us'
-  return `${(price / 100).toFixed(2)} лв.`
+  return `€${(price / 100).toFixed(2)}`
 }
 
 interface Props {

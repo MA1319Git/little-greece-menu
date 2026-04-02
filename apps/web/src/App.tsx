@@ -110,8 +110,8 @@ export default function App() {
       <footer className="text-center py-6 px-4 border-t border-stone-200/60">
         <p className="text-stone-400 text-xs">
           {lang === 'bg'
-            ? 'Всички цени са в лева (лв.) с включен ДДС'
-            : 'All prices are in BGN (лв.) incl. VAT'}
+            ? 'Всички цени са в евро (€) с включен ДДС'
+            : 'All prices are in Euro (€) incl. VAT'}
         </p>
         <p className="text-stone-300 text-xs mt-1">
           {lang === 'bg' ? '· Сезонно меню ·' : '· Seasonal menu ·'}
